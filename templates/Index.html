@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stroke Prediction</title>
+    <link rel="stylesheet" type="text/css" href="static\style1.css">
+<body>
+    
+        <h1>Stroke Prediction</h1>
+        <hr>
+        <br>
+        <div class="float-container">
+        <div class="float-child1" id="div1">
+        <form action="\predict" method="POST">
+            <label id="Gender" class="white">Gender:</label>
+            <select name="Gender" id="Gender">
+                <option value="1">Male</option>
+                <option value="0">Female</option>
+            </select>
+            <br>
+            <br>
+    
+        <label class="white" id="Age">Age:</label>
+        <input type="text" name="Age" id="Age" required="required" placeholder="In Numbers">
+        <br><br>
+        <label class="white" id="Hypertension">Hypertension:</label>
+        <select name="Hypertension" id="Hypertension">
+            <option value="1">yes</option>
+            <option value="0">No</option>
+        </select>
+        <br><br>
+        <label class="white" id="Heart disease">Heart disease:</label>
+        <select name="Heart disease" id="Heart disease">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select>
+        <br><br>
+        <label class="white" id="Ever Married">Ever Married:</label>
+        <select name="Ever Married" id="Ever Married">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select>
+        <br><br>
+        <label id="worktype" class="white">worktype:</label>
+        <select name="worktype" id="worktype">
+            <option value="private">private</option>
+            <option value="self emp">self emp</option>
+            <option value="govt job">govt job</option>
+            <option value="children">children</option>
+            <option value="never worked">never worked</option>
+        </select>
+        <br><br>
+        <label id="Residence type" class="white">Residence type:</label>
+        <select name="Residence type" id="Residence type">
+        <option value="0">rural</option>
+        <option value="1">urban</option>
+        </select>
+        <br><br>
+        <label class="white" for="average glucose level">average glucose level:</label>
+        <input type="text" name="average glucose level" id="average glucose level" required="required" placeholder="in numbers">
+        <br><br>
+        <label for="bmi" class="white">bmi:</label>
+        <input type="text" name="bmi" id="bmi" required="required" placeholder="in numbers">
+        <br><br>
+        <label class="white" for="smoke">smoke</label>
+        <select name="smoke" id="smoke">
+            <option value="never smoked">never smoked</option>
+            <option value="smoked">smokes</option>
+            <option value="formerly smoked">formerly smoked</option>
+            <option value="unknown">others</option>
+        </select>
+        <button type="submit">submit</button>&emsp;&emsp;<button type="reset">reset</button><br><br>  <br> 
+        </form>
+    </div>
+    <div class="float-child2" id="div2">
+        <img src="https://media.giphy.com/media/S9E88u47Lxc3uqhsse/giphy.gif" alt="heartstroke" style="width:450px;height:400px;"> 
+    </div>
+</div>
+    <h3>{{value}}</h3> <h2>{{prediction_text}}</h2>
+
+    <hr>
+   
+</body>
+<footer class="white" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">&#64; Karthik Chary </footer>
+</html>

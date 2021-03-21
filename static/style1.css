@@ -1,0 +1,17 @@
+body {
+    background: rgb(90, 86, 86);
+    text-align: center;
+}
+h1 {
+    color: rgb(106, 211, 211);
+    background-color: gray;
+    
+}
+.white{
+    color: white;
+}
+.float-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
