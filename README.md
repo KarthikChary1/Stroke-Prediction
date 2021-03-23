@@ -13,9 +13,9 @@
 ## Demo
 Link: [https://stroke-pred.herokuapp.com/](https://stroke-pred.herokuapp.com/)
 
-[![](https://imgur.com/hrzeTu2)](https://stroke-pred.herokuapp.com/)
+[![](https://imgur.com/hrzeTu2.png)](https://stroke-pred.herokuapp.com/)
 
-[![](https://imgur.com/4kHueRv)](https://stroke-pred.herokuapp.com/)
+[![](https://imgur.com/4kHueRv.png)](https://stroke-pred.herokuapp.com/)
 
 ## Overview
 This is a Flask app which is helpful in stroke prediction based on certain attributes like age , hypertension ,heartdisease etc.
